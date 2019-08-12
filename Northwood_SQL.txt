@@ -1,0 +1,36 @@
+ 
+--SELECT * FROM Customers
+--SELECT Country FROM Customers
+--SELECT * FROM Customers WHERE (CustomerID LIKE '%BI%')
+--SELECT * FROM Customers LIMIT 100
+--SELECT TOP 100*FROM Orders
+--SELECT * FROM Customers WHERE PostalCode='1010' OR PostalCode='3012' OR PostalCode='12209' OR PostalCode='05023'
+--SELECT * FROM Orders WHERE ShipRegion IS NOT NULL
+--SELECT * FROM Customers ORDER BY Country
+--SELECT * FROM Customers ORDER BY City
+ 
+--INSERT INTO Customers(CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax)
+--VALUES('SICON', 'The Golden Feline', 'Savanah Conrad', 'Owner', '2142 Yorktown Drive', 'Ann Arbor', 'MI', '48105', 'USA', '6036864019', NULL)
+ 
+--UPDATE Orders SET ShipRegion='EuroZone' WHERE ShipCountry='France'
+ 
+--DELETE FROM [Order Details] WHERE Quantity=1
+ 
+--SELECT AVG(Quantity) FROM [Order Details]
+--SELECT MAX(Quantity) FROM [Order Details]
+--SELECT MIN(Quantity) FROM [Order Details]
+ 
+--SELECT AVG(Quantity) FROM [Order Details] GROUP BY OrderID
+--SELECT MAX(Quantity) FROM [Order Details] GROUP BY OrderID
+--SELECT MIN(Quantity) FROM [Order Details] GROUP BY OrderID
+ 
+--SELECT CustomerID FROM Orders WHERE OrderID='10290'
+ 
+--SELECT * FROM Customers
+--INNER JOIN Orders ON Customers.CustomerID=Orders.CustomerID
+--LEFT JOIN Orders ON Customers.CustomerID=Orders.CustomerID
+--RIGHT JOIN Orders ON Customers.CustomerID=Orders.CustomerID
+ 
+--SELECT FirstName FROM Employees WHERE ReportsTo=2
+--SELECT FirstName FROM Employees WHERE ReportsTo=5
+ 
